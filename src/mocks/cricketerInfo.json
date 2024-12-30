@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Virat Kohli",
+    "age": 36,
+    "country": "India",
+    "runs_scored": 8676,
+    "half_centuries": 28,
+    "centuries": 29,
+    "average": 49.29,
+    "strike_rate": 55.3,
+    "image_url": "https://i.ebayimg.com/images/g/KtsAAOSwKoFm9s5y/s-l1600.webp"
+  },
+  {
+    "name": "Joe Root",
+    "age": 33,
+    "country": "England",
+    "runs_scored": 11626,
+    "half_centuries": 56,
+    "centuries": 30,
+    "average": 50.22,
+    "strike_rate": 55.0,
+    "image_url": "https://pbs.twimg.com/media/FxdKcJ7WAAEkk6W?format=jpg&name=large"
+  },
+  {
+    "name": "Yashasvi Jaiswal",
+    "age": 24,
+    "country": "India",
+    "runs_scored": 1682,
+    "half_centuries": 9,
+    "centuries": 4,
+    "average": 54.25,
+    "strike_rate": 60.0,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT95rrrec8kyoQOmbYehxXZhaaptBDEIwvOSw&s"
+  },
+  {
+    "name": "Daryl Mitchell",
+    "age": 33,
+    "country": "New Zealand",
+    "runs_scored": 1463,
+    "half_centuries": 7,
+    "centuries": 4,
+    "average": 50.44,
+    "strike_rate": 60.0,
+    "image_url": "https://media.gettyimages.com/id/1711506575/photo/thiruvananthapuram-india-daryl-mitchell-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=gi&k=20&c=q3v0bXKUl1VBkXevSS8jiCsrJbTevjseFglDFrZDU2A="
+  },
+  {
+    "name": "Kane Williamson",
+    "age": 34,
+    "country": "New Zealand",
+    "runs_scored": 8124,
+    "half_centuries": 33,
+    "centuries": 28,
+    "average": 54.89,
+    "strike_rate": 51.5,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpM-o1rc7j06q_yeFR_r6np9nyqWyGNlnIw&s"
+  }
+]
