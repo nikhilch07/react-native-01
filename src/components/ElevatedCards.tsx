@@ -14,24 +14,24 @@ export default function ElevatedCards() {
         <View>
             <Text style={styles.heading}>ElevatedCards</Text>
             <FlatList
-              horizontal
-              ItemSeparatorComponent={
-                (({highlighted}) => (
-                  <View
-                    style={[styles.separator, highlighted]}
-                  />      
-               
-                ))
-            
-              }
+                horizontal
+                ItemSeparatorComponent={
+                    (({ highlighted }) => (
+                        <View
+                            style={[styles.separator, highlighted]}
+                        />
+
+                    ))
+
+                }
                 data={cardsList}
                 renderItem={({ item }) => (
                     <View style={[styles.card, { backgroundColor: item.color }]}>
                         <Text> {item.key}</Text>
                     </View>
                 )}
-   
-          
+
+
             />
         </View>
     )

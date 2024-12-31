@@ -1,8 +1,27 @@
-import React from 'react'
-import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
+import React, { useCallback } from 'react'
+import {
+    FlatList,
+    Image,
+    StyleSheet,
+    Text,
+    Linking,
+    TouchableOpacity,
+    View
+} from 'react-native';
 import cricketersInfo from '../mocks/cricketerInfo.json';
 
 export default function FancyCards() {
+
+    const openProfile = useCallback(async (url: string) => {
+        const isSupported = await Linking.canOpenURL(url);
+        if (isSupported) {
+            console.log('URL is supported');
+            Linking.openURL(url);
+        } else {
+            console.log('URL is not supported');
+        }
+    }, []);
+
     return (
         <View>
             <Text style={styles.heading}>Trending Cricketers</Text>
@@ -38,6 +57,12 @@ export default function FancyCards() {
                         <View style={styles.stats}>
                             <Text style={styles.keyText}>Strike Rate: </Text> <Text style={styles.valueText}>{item.strike_rate}</Text>
                         </View>
+
+                        <View style={[{ flex: 1, alignItems: 'center', justifyContent: 'center' }]}>
+                            <TouchableOpacity onPress={() => openProfile(item.profileUrl)} style={styles.profileButton}>
+                                <Text style={{ color: 'white' }}>View Profile</Text>
+                            </TouchableOpacity>
+                        </View>
                     </View>
                 )}
             />
@@ -54,7 +79,7 @@ const styles = StyleSheet.create({
     },
     card: {
         width: 300,
-        height: 500,
+        height: 600,
         backgroundColor: '#EA7773',
         borderRadius: 10,
         margin: 10,
@@ -67,8 +92,9 @@ const styles = StyleSheet.create({
         borderTopRightRadius: 50,
     },
     cricketerName: {
+        marginTop: 10,
         alignItems: 'center',
-        fontSize: 20,
+        fontSize: 24,
         fontWeight: 'bold',
         color: 'white',
     },
@@ -89,5 +115,12 @@ const styles = StyleSheet.create({
         color: 'white',
         fontFamily: 'calibri',
         fontWeight: 'semibold',
+    },
+    profileButton: {
+        marginHorizontal: 'auto',
+        marginVertical: 'auto',
+        backgroundColor: 'green',
+        padding: 10,
+        borderRadius: 10
     }
 })

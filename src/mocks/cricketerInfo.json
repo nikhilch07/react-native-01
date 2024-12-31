@@ -8,7 +8,8 @@
     "centuries": 29,
     "average": 49.29,
     "strike_rate": 55.3,
-    "image_url": "https://i.ebayimg.com/images/g/KtsAAOSwKoFm9s5y/s-l1600.webp"
+    "image_url": "https://i.ebayimg.com/images/g/KtsAAOSwKoFm9s5y/s-l1600.webp",
+    "profileUrl": "https://www.cricbuzz.com/profiles/1413/virat-kohli"
   },
   {
     "name": "Joe Root",
@@ -19,7 +20,8 @@
     "centuries": 30,
     "average": 50.22,
     "strike_rate": 55.0,
-    "image_url": "https://pbs.twimg.com/media/FxdKcJ7WAAEkk6W?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/FxdKcJ7WAAEkk6W?format=jpg&name=large",
+    "profileUrl": "https://www.cricbuzz.com/profiles/8019/joe-root"
   },
   {
     "name": "Yashasvi Jaiswal",
@@ -30,7 +32,8 @@
     "centuries": 4,
     "average": 54.25,
     "strike_rate": 60.0,
-    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT95rrrec8kyoQOmbYehxXZhaaptBDEIwvOSw&s"
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT95rrrec8kyoQOmbYehxXZhaaptBDEIwvOSw&s",
+    "profileUrl": "https://www.cricbuzz.com/profiles/13940/yashasvi-jaiswal"
   },
   {
     "name": "Daryl Mitchell",
@@ -41,7 +44,8 @@
     "centuries": 4,
     "average": 50.44,
     "strike_rate": 60.0,
-    "image_url": "https://media.gettyimages.com/id/1711506575/photo/thiruvananthapuram-india-daryl-mitchell-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=gi&k=20&c=q3v0bXKUl1VBkXevSS8jiCsrJbTevjseFglDFrZDU2A="
+    "image_url": "https://media.gettyimages.com/id/1711506575/photo/thiruvananthapuram-india-daryl-mitchell-of-new-zealand-poses-for-a-portrait-ahead-of-the-icc.jpg?s=612x612&w=gi&k=20&c=q3v0bXKUl1VBkXevSS8jiCsrJbTevjseFglDFrZDU2A=",
+    "profileUrl": "https://www.cricbuzz.com/profiles/10713/daryl-mitchell"
   },
   {
     "name": "Kane Williamson",
@@ -52,6 +56,7 @@
     "centuries": 28,
     "average": 54.89,
     "strike_rate": 51.5,
-    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpM-o1rc7j06q_yeFR_r6np9nyqWyGNlnIw&s"
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpM-o1rc7j06q_yeFR_r6np9nyqWyGNlnIw&s",
+    "profileUrl": "https://www.cricbuzz.com/profiles/6326/kane-williamson"
   }
 ]

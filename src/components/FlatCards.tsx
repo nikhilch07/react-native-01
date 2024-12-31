@@ -5,7 +5,7 @@ export default function FlatCards() {
     return (
         <View>
             <Text style={styles.heading}>Flat Cards</Text>
-=                <FlatList
+            <FlatList
                 data={[{ key: 'Red' }, { key: 'Green' }, { key: 'Blue' }]}
                 horizontal={true}
                 renderItem={({ item }) => {
@@ -15,8 +15,8 @@ export default function FlatCards() {
                         </View>
                     )
                 }}
-                >
-                </FlatList>
+            >
+            </FlatList>
         </View>
     )
 }
