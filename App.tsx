@@ -1,29 +1,14 @@
 import React from 'react';
-import { SafeAreaView, useColorScheme, FlatList } from 'react-native';
-import FlatCards from './src/components/FlatCards';
-import ElevatedCards from './src/components/ElevatedCards';
-import FancyCards from './src/components/FancyCards';
+import { Text, SafeAreaView } from 'react-native';
 
 const App = () => {
   return (
-    <SafeAreaView> 
-      <FlatList
-        data={[{ key: 'FlatCards' }, { key: 'ElevatedCards' }, { key: 'FancyCards' }]}
-        renderItem={({ item }) => {
-          console.log('ITEM', item);
-          if (item.key === 'FlatCards') {
-            return <FlatCards />;
-          } else if (item.key === 'ElevatedCards') {
-            return <ElevatedCards />;
-          } 
-          else if (item.key === 'FancyCards') {
-            return <FancyCards />;
-          }
-          return null;
-        }}
-        keyExtractor={(item) => item.key}
-      />    
-     </SafeAreaView>
+    <SafeAreaView>
+    <Text style={{ fontSize: 20, textAlign: 'center', alignItems: 'center', margin: 10 }}>
+      Hello, World!
+    </Text>
+    </SafeAreaView>
+
   );
 };
 
